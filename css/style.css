@@ -1,0 +1,94 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.box{
+  border-radius: 15px;
+  display: flex;
+}
+
+.minimize{
+  font-size: 30px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 5px;
+}
+
+.minimize1{
+  background-color: dodgerblue;
+  transition: all 0.5s ease;
+}
+
+.minimize1:hover{
+  background-color: rgba(30, 144, 255, 0.7);
+}
+
+.minimize2{
+  background-color: #918888;
+  transition: all 0.5s ease;
+}
+
+.minimize2:hover{
+  background-color: rgba(145, 136, 136, 0.7);
+}
+
+.minimize3{
+  background-color: rgb(76, 129, 5);
+  transition: all 0.5s ease;
+}
+
+.minimize3:hover{
+  background-color: rgba(76, 129, 5, 0.7);
+}
+
+.box2{
+  border-radius: 15px;
+  display: flex;
+  margin-top: 20px;
+}
+
+.minimize7{
+  font-size: 30px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-decoration: none;
+  margin: 100px 5px 0 0;
+}
+
+.minimize4{
+  border: 2px solid dodgerblue;
+  color: dodgerblue;
+  transition: all 0.5s ease;
+}
+
+.minimize4:hover{
+  background-color: rgba(30, 144, 255, 0.7);
+}
+
+.minimize5{
+  border: 2px solid #918888;
+  color: #918888;
+  transition: all 0.5s ease;
+}
+
+.minimize5:hover{
+  background-color: rgba(145, 136, 136, 0.7);
+}
+
+.minimize6{
+  border: 2px solid rgb(76, 129, 5);;
+  color: rgb(76, 129, 5);
+  transition: all 0.5s ease;
+}
+
+.minimize6:hover{
+  background-color: rgba(76, 129, 5, 0.7);
+}
